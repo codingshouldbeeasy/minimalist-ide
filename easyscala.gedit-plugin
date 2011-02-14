@@ -1,0 +1,7 @@
+[Gedit Plugin]
+Loader=python
+Module=easyscala
+IAge=2
+Name=2Easy Scala
+Description=Easy Scala IDE
+
