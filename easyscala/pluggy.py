@@ -42,7 +42,7 @@ class Pluggy:
     active_view = self._window.get_active_view()
     active_doc = self._window.get_active_document()
     if getattr(active_view, 'pluggy_handlers', None)==None:
-      self.register_all_handlers_with_view(view)
+      self.register_all_handlers_with_view(active_view)
     self.ui_updated(active_view, active_doc)
     
   def ui_updated(self, active_view, active_doc):
